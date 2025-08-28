@@ -13,7 +13,7 @@ const Header = () => {
           />
         </a> */}
         {/* Desktop Menu */}
-        <Button css={"px-8 py-2 "} />
+        <Button css={"px-8 py-2"} />
       </div>
     </header>
   );

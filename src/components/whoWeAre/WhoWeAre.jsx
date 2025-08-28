@@ -1,9 +1,13 @@
-import { MdOutlineInsertChart } from "react-icons/md";
+import { HiOutlineRocketLaunch } from "react-icons/hi2";
+import {
+  MdOutlineInsertChart,
+  MdOutlineInsertChartOutlined,
+} from "react-icons/md";
 
 const WhoWeAre = () => {
   return (
     <div className="container mx-auto">
-      <div className="flex justify-between items-start px-20">
+      <div className="flex justify-between items-start px-20 py-20">
         <div className="items-start">
           <div className="h-[200px] w-[200px] rounded-full bg-white shadow-2xl flex flex-col items-center justify-center text-center">
             <h3 className="text-text-secondary text-7xl font-bold">5+</h3>
@@ -32,10 +36,12 @@ const WhoWeAre = () => {
           <div>
             <div>
               <div className="flex items-start justify-self-start gap-x-5 pt-10">
-                <MdOutlineInsertChart className="w-30 h-30" />
+                <span>
+                  <MdOutlineInsertChartOutlined className="w-15 h-15 text-text-secondary" />
+                </span>
                 <div>
                   <h1 className="text-2xl text-text-main">Website</h1>
-                  <p className="text-text-777777">
+                  <p className="text-text-777777 pt-2">
                     We build modern, responsive, and fully customized websites
                     that reflect your brand and drive results. Whether you need
                     a professional business site, a high-converting e-commerce
@@ -44,7 +50,23 @@ const WhoWeAre = () => {
                   </p>
                 </div>
               </div>
-              <div></div>
+              <div className="flex items-start justify-self-start gap-x-5 pt-10">
+                <span>
+                  <HiOutlineRocketLaunch className="w-15 h-15 text-text-secondary" />
+                </span>
+                <div>
+                  <h1 className="text-2xl text-text-main">
+                    Mobile App Solutions
+                  </h1>
+                  <p className="text-text-777777 pt-2">
+                    We develop powerful and intuitive mobile applications that
+                    help businesses connect with their customers on the go.
+                    Whether you're launching a startup idea, streamlining
+                    internal operations, or enhancing customer engagement, we
+                    build custom iOS and Android apps tailored to your needs.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

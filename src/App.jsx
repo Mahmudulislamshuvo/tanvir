@@ -1,3 +1,4 @@
+import FeaturedProjects from "./components/Feturedprojects/FeaturedProjects";
 import Hero from "./components/hero/Hero";
 import HeroSection from "./components/navbar/Navbar";
 import WhoWeAre from "./components/whoWeAre/WhoWeAre";
@@ -8,6 +9,7 @@ const App = () => {
       <HeroSection />
       <Hero />
       <WhoWeAre />
+      <FeaturedProjects />
     </div>
   );
 };
