@@ -4,6 +4,7 @@ import Hero from "./components/hero/Hero";
 import HeroSection from "./components/navbar/Navbar";
 import Services from "./components/services/Services";
 import WhoWeAre from "./components/whoWeAre/WhoWeAre";
+import WhyChooseUs from "./components/whyChoseUs/WhyChoseUs";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <FeaturedProjects />
       <Services />
       <BrandAndCustomer />
+      <WhyChooseUs />
     </div>
   );
 };
