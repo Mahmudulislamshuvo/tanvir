@@ -1,4 +1,3 @@
-import { MessageCircle, Search, Layers, Users } from "lucide-react";
 import HeadingPage from "../commonCompo/HeadingPage";
 import { MdOutlineMessage } from "react-icons/md";
 import ServiceCart from "../commonCompo/ServiceCart";
